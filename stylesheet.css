@@ -13,8 +13,8 @@ p,h1,h2,h3,h4,ul,div{
     margin-bottom: 0;
     margin-left: auto;
     width: 40%;
-    min-width: 300px;
-    max-width: 600px;
+    min-width: 200px;
+    max-width: 1200px;
     padding: 18px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif /*arial, helvetica, sans-serif*/;
     -webkit-font-smoothing:antialiased;
