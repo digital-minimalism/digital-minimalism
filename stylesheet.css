@@ -12,8 +12,8 @@ p,h1,h2,h3,h4,ul,div{
     margin-right: auto;
     margin-bottom: 30px;
     margin-left: auto;
-    width: 90%;
-    font-family:  Palatino, serif;
+    width: 80%;
+    font-family: helvetica, arial, sans-serif;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale;
     /*border-color: blue;
@@ -24,7 +24,7 @@ p,h1,h2,h3,h4,ul,div{
 /* For desktop & tablets: */
 @media only screen and (min-width: 480px) {
     p,h1,h2,h3,h4,ul,div {
-        width: 480px;
+        width: 520px;
     }
 }
 
@@ -44,13 +44,13 @@ p,h1,h2,h3,h4,ul,div{
     border-width: 1px;*/
     
     float: left;
-    width:40px;
-    height:40px;
+    width:38px;
+    height:38px;
     
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 2px;
     margin-right: 2px;
-    padding: 0px;
+    padding: 1px;
 
 }
 
@@ -66,7 +66,7 @@ p,h1,h2,h3,h4,ul,div{
     
     margin-top: 2px;
     margin-bottom: 0px;
-    margin-left: 50px;
+    margin-left: 55px;
     margin-right: 2px;
     padding: 0px;
     
@@ -81,7 +81,7 @@ h2
     line-height: 1;
     
     margin-top: 2px;
-    margin-left: 50px;
+    margin-left: 55px;
     margin-right:2px;
     margin-bottom: 5px;
     padding: 0px;
@@ -121,11 +121,3 @@ li{
 	text-transform: uppercase;
 }
 
-.genesis-nav-menu {
-	border-bottom: 1px solid #eee;
-	border-top: 1px solid #eee;
-	clear: both;
-	line-height: 1;
-	text-align: center;
-	width: 100%;
-}
