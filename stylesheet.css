@@ -2,21 +2,18 @@ body {
   background:#fff;
 }
 
-
+/* For mobile phones (mobile first): */
 p,h1,h2,h3,h4,ul,div{
-    letter-spacing: 0.1px;
+    /*letter-spacing: 0.2px;*/
     font-weight:lighter;
     line-height:1.5em;
     color: #333;
-    margin-top: 0;
+    margin-top: 30px;
     margin-right: auto;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     margin-left: auto;
-    width: 40%;
-    min-width: 200px;
-    max-width: 1200px;
-    padding: 18px;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif /*arial, helvetica, sans-serif*/;
+    width: 90%;
+    font-family:  Palatino, serif;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale;
     /*border-color: blue;
@@ -24,11 +21,21 @@ p,h1,h2,h3,h4,ul,div{
     border-width: 1px;*/
 }
 
+/* For desktop & tablets: */
+@media only screen and (min-width: 480px) {
+    p,h1,h2,h3,h4,ul,div {
+        width: 480px;
+    }
+}
+
 
 .header{
     border-bottom: 1px solid #eee;
-    padding-top: 40px;
-    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    /*border-color: blue;
+    border-style: dashed;
+    border-width: 1px;*/
 }
 
 .header img{
@@ -37,25 +44,35 @@ p,h1,h2,h3,h4,ul,div{
     border-width: 1px;*/
     
     float: left;
-    width:45px;
-    height:45px;
+    width:40px;
+    height:40px;
     
-    margin:2px;
-    padding: 2px;
-    
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 2px;
+    padding: 0px;
+
 }
 
 
 .header h1 {
+    
+    /*border-color: blue;
+    border-style: dashed;
+    border-width: 1px;*/
+    
     line-height: 30px;
     font-size: 28px;
     
     margin-top: 2px;
-    margin-left: 58px;
-    padding: 2px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 2px;
+    padding: 0px;
+    
+    width: auto;
     
 }
-
 
 
 h2
@@ -63,16 +80,19 @@ h2
     font-size: 12px;
     line-height: 1;
     
-    margin-left: 58px;
-    padding: 2px;
-
+    margin-top: 2px;
+    margin-left: 50px;
+    margin-right:2px;
+    margin-bottom: 5px;
+    padding: 0px;
     
+    width: auto;  
 }
 
 h4 {
     font-weight: bold;
-    padding-bottom: 1px;
-    padding-top: 40px;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
 ul{
@@ -93,8 +113,9 @@ li{
 }
 
 .entry-header{
-  padding-top: 1px;
-	font-size: 10px;
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 10px;
 	letter-spacing: 1px;
 	margin-bottom: 0;
 	text-transform: uppercase;
